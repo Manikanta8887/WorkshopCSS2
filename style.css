@@ -1,7 +1,13 @@
+
+*{
+    margin: 0;
+}
+
 .div11{
     background-image: url('https://wetrackon.s3.ap-southeast-1.amazonaws.com/image_upload/offr_img_1609160215587.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 header{
@@ -45,7 +51,7 @@ section{
 }
 
 #a{
-    padding: 20px 20px 20px 20px;
+    padding: 10px;
     background-color: white;
     margin: 20px 0px;
     display: inline-block;
@@ -53,7 +59,7 @@ section{
 }
 
 #a:hover{
-    padding: 30px;
+    padding: 15px;
     background-color: white;
 }
 
@@ -74,6 +80,7 @@ section{
     height: 200px;
     text-align: center;
     border: 2px solid brown;
+    margin: 5%;
 }
 
 .div2{
@@ -82,6 +89,8 @@ section{
     height: 200px;
     text-align: center;
     border: 2px solid brown;
+    margin: 5%;
+
 }
 
 .div3{
@@ -90,6 +99,7 @@ section{
     height: 200px;
     text-align: center;
     border: 2px solid brown;
+    margin: 5%;
 }
 
 #p2{
@@ -135,3 +145,22 @@ i{
     padding: 10px;
 }
 
+@media screen and (max-width:769px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
