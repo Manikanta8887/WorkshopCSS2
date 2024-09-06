@@ -145,7 +145,7 @@ i{
     padding: 10px;
 }
 
-@media screen and (max-width:769px){
+@media screen and (max-width:768px){
     header{
         display: flex;
         flex-direction: column;
